@@ -5,5 +5,6 @@ def find_consecutive(array)
       ans << i
     end
   end
+  ans[0] == nil ? ans = nil : nil
   return ans
 end
