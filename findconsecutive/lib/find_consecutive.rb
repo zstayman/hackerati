@@ -5,7 +5,7 @@ def find_consecutive(array)
   array.each_with_index do |val, i|
     # checks to see if the next two numbers in the array are consecutive
     if (array[i+1] == val+1 && array[i+2] == val+2) || (array[i+1] == val-1 && array[i+2] == val-2)
-      # if the next two values are consecutive, it adds the index to the
+      # if the next two values are consecutive, it adds the index to the answer array
       ans << i
     end
   end
